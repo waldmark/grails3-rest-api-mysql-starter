@@ -182,3 +182,9 @@ grails:
         defaultScope: singleton
     converters:
         encoding: UTF-8
+
+# note: the three dashs start a new section, so grails here does not conflict with the grails prefix above...
+---
+grails:
+    gorm:
+        autoflush: true

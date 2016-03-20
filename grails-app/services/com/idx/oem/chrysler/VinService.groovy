@@ -10,6 +10,6 @@ class VinService {
     }
 
     void save(TestDomain test) {
-        test.save(flush: true)
+        test.save()
     }
 }
