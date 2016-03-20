@@ -5,4 +5,11 @@ create initial grails project
 <pre><code>grails create-app com.xyz.package1.gorm --profile=reat-api</code></pre>
 
 install MySQL connector, in build.gradle add 
-<pre><code>runtime('mysql:mysql-connector:5.1.29')</code></pre>
+<pre><code>runtime 'mysql:mysql-connector-java:5.1.29'</code></pre>
+
+
+edit application.yml (or create and edit application.groovy) in conf
+
+create the database manually in MySQL
+
+
